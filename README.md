@@ -1,4 +1,4 @@
-## Hi there 👋
+## Artificial Intelligence for Land Use and Land Cover Classification (AI4LUC)
 
 <!--
 **ai4luc/ai4luc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
