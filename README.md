@@ -17,6 +17,9 @@ Here are some ideas to get you started:
 
 
 # Example usage
+from from ai4luc.cerranet_v3 import cerranetv3_keras
+cerranetv3_keras.CerranetV3.build_model()
+
 if __name__ == "__main__":
     # Initialize model with different channel configurations
     rgb_model = CerranetV3(
