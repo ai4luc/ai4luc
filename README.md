@@ -14,3 +14,28 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+# Example usage
+if __name__ == "__main__":
+    # Initialize model with different channel configurations
+    rgb_model = CerranetV3(
+        image_size=256,
+        num_classes=8,
+        channels=3,  # For RGB images
+        act_layer='softmax'
+    ).build_model()
+    
+    grayscale_model = CerranetV3(
+        image_size=256,
+        num_classes=8,
+        channels=1,  # For grayscale images
+        act_layer='softmax'
+    ).build_model()
+    
+    # Display architectures
+    print("RGB Model Summary:")
+    rgb_model.summary()
+    
+    print("\nGrayscale Model Summary:")
+    grayscale_model.summary()
